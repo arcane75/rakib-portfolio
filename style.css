@@ -2,15 +2,25 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.p{
+    text-align: justify;
+}
 h1{
     font-size: 50px;
+}
+h2 {
+    font-size: 38px;
+    font-weight: bold;
 }
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
+}
+section{
+    
 }
 .half-width{
     width: 50%;
@@ -38,6 +48,29 @@ section{
     background-repeat: no-repeat;
     background-position:right;
 }
-.p{
-    text-align: justify;
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.full-stack{
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow:10px 10px 40px grey ;
+    border-radius: 10px;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev-exp{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
